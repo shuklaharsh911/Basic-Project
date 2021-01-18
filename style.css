@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px 4px;
+  padding-top: 40px;
+  column-gap: 20px;
+  padding-left: 20px;
+  background-color: rgb(240, 245, 247);
+  max-width: 100%;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 16%; /* IE10 */
+  flex: 16%;
+  max-width: 16%;
+  padding: 4px 40px;
+  text-align: center;
+  border-style: solid;
+  border-color: #8a9999;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  font-family: 'Arbutus Slab';
+  font-size: 20px;
+  font-weight: bold;
+}
+.column2 {
+  -ms-flex: 40%; /* IE10 */
+  flex: 40%;
+  max-width: 40%;
+  padding: 0px 50px;
+  text-align: center;
+  border-style: solid;
+  border-color: #8a9999;
+  border-radius: 20px;
+  background-color: white;
+  font-family: 'Arbutus Slab';
+  font-size: 20px;
+  font-weight: bold;
+}
+.column3 {
+  -ms-flex: 44%; /* IE10 */
+  flex: 44%;
+  max-width: 44%;
+  padding: 0px 50px;
+  text-align: center;
+  border-style: solid;
+  border-color: #8a9999;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  font-family: 'Arbutus Slab';
+  font-size: 20px;
+  font-weight: bold;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.column4{
+  -ms-flex: 16%; /* IE10 */
+  flex: 16%;
+  max-width: 16%;
+  padding: 4px 40px;
+  text-align: center;
+  border-style: solid;
+  border-color: #8a9999;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  font-family: 'Arbutus Slab';
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column3 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column4 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+nav{
+  background: rgb(23, 78, 141);
+  text-align: center;
+  height: 50px;
+  font-family: 'Coda Caption';
+  font-size: 22px;
+  padding-top: 10px;
+}
+.x{
+  background-color: rgb(161, 34, 34);
+}
