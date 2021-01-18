@@ -74,9 +74,9 @@ var myChart3 = new Chart(ctx3, {
 var myChart4 = new Chart(ctx4, {
   type: 'line',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['9pm', '1pm', '5pm', '9pm', '1am', '5am'],
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3],
+            data: [40,50,60,70,80,90],
             borderColor: [
               "aqua"
           ],
@@ -91,11 +91,11 @@ var myChart4 = new Chart(ctx4, {
   }
 });
 var data = {
-  labels : ["match1", "match2", "match3", "match4", "match5"],
+  labels : ['9pm', '1pm', '5pm', '9pm', '1am', '5am'],
   datasets : [
     {
       label : "TeamA score",
-      data : [10, 50, 25, 70, 40],
+      data : [40, 50, 60, 70, 80],
       backgroundColor : [
         getRandomColorHex(),
         getRandomColorHex(),

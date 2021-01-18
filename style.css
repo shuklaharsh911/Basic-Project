@@ -125,6 +125,14 @@ body {
     max-height: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  .nav {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
 nav{
   background: rgb(23, 78, 141);
   text-align: center;

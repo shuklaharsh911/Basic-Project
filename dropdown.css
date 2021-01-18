@@ -14,9 +14,10 @@
   }
   .box select
   {
-       background: #0563af;
+       background: #87898a;
        color: #fff;
        padding: 10px;
-       width: 200px;
+       width: 100px;
        height: 40px;
+       border-radius: 5px;
   }
