@@ -86,6 +86,14 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+nav{
+  background: rgb(23, 78, 141);
+  text-align: center;
+  height: 50px;
+  font-family: 'Coda Caption';
+  font-size: 22px;
+  padding-top: 10px;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -101,6 +109,8 @@ body {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+    text-align: center;
+    font-weight: 12px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -108,6 +118,8 @@ body {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+    text-align: center;
+    font-weight: 12px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -115,6 +127,8 @@ body {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+    text-align: center;
+    font-weight: 12px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -123,24 +137,21 @@ body {
     flex: 100%;
     max-width: 100%;
     max-height: 100%;
+    text-align: center;
+    font-weight: 12px;
   }
 }
 @media screen and (max-width: 600px) {
-  .nav {
+  nav {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
     max-height: 100%;
+    text-align: center;
+    font-weight: 18px;
   }
 }
-nav{
-  background: rgb(23, 78, 141);
-  text-align: center;
-  height: 50px;
-  font-family: 'Coda Caption';
-  font-size: 22px;
-  padding-top: 10px;
-}
+
 .x{
   background-color: rgb(161, 34, 34);
 }
